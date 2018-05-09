@@ -11,27 +11,39 @@
 			</li>
 		</ul>
 		<div class="action">
-			<button ng-click="checkAnswer()" class="btn btn-primary btn-lg">Next Question</button>
+			<button ng-click="checkAnswer()" class="btn btn-primary btn-lg">Próxima pergunta</button>
 		</div>
 	</div>
 
 	<div class="results" ng-show="quizOver">
+		<p><img alt="nível" src="/images/win.png"></p>
 		<h3 class="text-center level">{{level.title}}</h3>
 		<p class="text-center advice">{{level.text}}</p>
-		<p class="text-center points">Score: {{score}}</p>
+		<p class="text-center points">Seus pontos: {{score}}</p>
 
 		<hr>
-		<h3>Score:</h3>
+		<h3>Questões que você errou</h3>
 		<ul>
 			<li ng-repeat="wrong_question in wrong_questions">
 				{{wrong_question.question}}
+				<ul>
+					<li ng-repeat="link in wrong_question.links">
+						<a href="{{link.link}}">{{link.name}}</a>
+					</li>
+				</ul>
 			</li>
 		</ul>
 	</div>
 </div>
 
 <div class="intro" ng-show="!inProgress">
+	<p><img alt="Rdstation" src="/images/quiz.png"></p>
+	<h2> <b> Quiz de Marketing Digital</b> </h2>
+	<h3>Bem vindo ao Quiz de Marketing Digital!</h3>
+
+	<input type="text" class="form-control input-lg" ng-model="name" placeholder="Nome">
+	<input type="text" class="form-control input-lg" ng-model="email" placeholder="Email">
 	<p class="text-center">
-		<button id="startQuiz" ng-click="start()"> Start! </button>
+		<button id="startQuiz" class="btn btn-primary btn-block btn-lg" ng-disabled="!email" ng-click="start()"> Começar! </button>
 	</p>
 </div>
