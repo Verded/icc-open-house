@@ -28,8 +28,8 @@ app.factory("questions", function() {
   		},
     {
   			question: "What are ICC members trained to do?",
-  			options: ["Coding", "Gaming", "Designing", "Animating"],
-  			answer: 1 and 2,
+  			options: ["Coding", "Gaming", "Photography", "Animating"],
+  			answer: 1,
         links: [
           { name: "In our CCA, we mainly focus on coding and design." }
         ]
