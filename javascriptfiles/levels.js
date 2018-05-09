@@ -17,7 +17,7 @@ app.factory("levels", function() {
 
   return {
 		getLevel: function(score) {
-      filtered = levels.filter(function(result) {
+      filtered = levels.filter(function(level) {
         return level.minimun_score >= score;
       });
 
