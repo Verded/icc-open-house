@@ -25,7 +25,7 @@ app.factory("questions", function() {
         links: [
           { name: "Our CCA takes part in the NIC Ace of Coders competition every year. In fact, it is one of the competitions that Dunman High School has excelled in, constantly being the top performing school for a various number of years." }
         ]
-  		}
+  		},
     {
   			question: "What are ICC members trained to do?",
   			options: ["Coding", "Gaming", "Designing", "Animating"],
@@ -33,7 +33,7 @@ app.factory("questions", function() {
         links: [
           { name: "In our CCA, we mainly focus on coding and design." }
         ]
-  		}
+  		},
     {
   			question: "When are Infocomm Club sessions mainly held on?",
   			options: ["Mondays, 1230 to 1530", "Tuesdays, 1400 to 1730", "Thursdays, 1400 to 1730", "Fridays, 1430 to 1730"],
