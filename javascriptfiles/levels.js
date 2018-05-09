@@ -8,7 +8,27 @@ app.factory("levels", function() {
   		text: "You did not get enough answers correct to get a stamp."
   	},
     {
+      minimun_score: 1,
+  		title: "Sorry!",
+  		text: "You did not get enough answers correct to get a stamp."
+  	},
+    {
+      minimun_score: 2,
+  		title: "Sorry!",
+  		text: "You did not get enough answers correct to get a stamp."
+  	},
+    {
+      minimun_score: 3,
+  		title: "Congratulations!",
+  		text: "You got a stamp!"
+  	},
+    {
       minimun_score: 4,
+  		title: "Congratulations!",
+  		text: "You got a stamp!"
+  	},
+    {
+      minimun_score: 5,
   		title: "Congratulations!",
   		text: "You got a stamp!"
   	},
