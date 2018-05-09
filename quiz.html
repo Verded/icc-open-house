@@ -11,18 +11,17 @@
 			</li>
 		</ul>
 		<div class="action">
-			<button ng-click="checkAnswer()" class="btn btn-primary btn-lg">Próxima pergunta</button>
+			<button ng-click="checkAnswer()" class="btn btn-primary btn-lg">Next</button>
 		</div>
 	</div>
 
 	<div class="results" ng-show="quizOver">
-		<p><img alt="nível" src="/images/win.png"></p>
 		<h3 class="text-center level">{{level.title}}</h3>
 		<p class="text-center advice">{{level.text}}</p>
 		<p class="text-center points">Answers: {{score}}</p>
 
 		<hr>
-		<h3>Questões que você errou</h3>
+
 		<ul>
 			<li ng-repeat="wrong_question in wrong_questions">
 				{{wrong_question.question}}
@@ -41,6 +40,6 @@
 	<h2> <b> Dunman High Infocomm Club Quiz</b> </h2>
 	
 	<p class="text-center">
-		<button id="startQuiz" class="btn btn-primary btn-block btn-lg" ng-disabled="!email" ng-click="start()"> Começar! </button>
+		<button id="startQuiz" class="btn btn-primary btn-lg" ng-disabled="!email" ng-click="start()"> Start! </button>
 	</p>
 </div>
