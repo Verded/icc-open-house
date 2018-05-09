@@ -22,7 +22,7 @@
 		<p class="text-center points">Seus pontos: {{score}}</p>
 
 		<hr>
-		<h3>Questões que você errou</h3>
+		<h3>Score:</h3>
 		<ul>
 			<li ng-repeat="wrong_question in wrong_questions">
 				{{wrong_question.question}}
@@ -34,6 +34,6 @@
 <div class="intro" ng-show="!inProgress">
 	<input type="text" class="form-control input-lg" ng-model="name" placeholder="Nome">
 	<p class="text-center">
-		<button id="startQuiz" class="btn btn-primary btn-block btn-lg" ng-disabled="!email" ng-click="start()"> Começar! </button>
+		<button id="startQuiz" class="btn btn-primary btn-block btn-lg"ng-click="start()"> Start the quiz! </button>
 	</p>
 </div>
