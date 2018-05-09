@@ -1,7 +1,7 @@
 app = angular.module("dhsiccquiz");
 
-app.factory("result", function() {
-  var Result = [
+app.factory("results", function() {
+  var results = [
     {
       minimum_score: 0,
   		title: "Sorry!",
@@ -17,8 +17,8 @@ app.factory("result", function() {
 
   return {
 		getResult: function(score) {
-      filtered = levels.filter(function(stage) {
-        return level.minimum_score >= score;
+      filtered = results.filter(function(stage) {
+        return result.minimum_score >= score;
       });
 
       return filtered[0];
