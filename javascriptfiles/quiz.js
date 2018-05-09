@@ -10,8 +10,6 @@ app.directive('quiz', function(questions, levels) {
 				scope.id = 0;
         scope.score = 0;
         scope.wrong_questions = [];
-        scope.email = "";
-
 				scope.quizOver = false;
 				scope.inProgress = true;
 
