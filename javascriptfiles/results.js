@@ -17,7 +17,7 @@ app.factory("results", function() {
 
   return {
 		getResult: function(score) {
-      filtered = results.filter(function(stage) {
+      filtered = results.filter(function(result) {
         return result.minimum_score >= score;
       });
 
