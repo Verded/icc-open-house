@@ -7,39 +7,39 @@ app.factory("questions", function() {
   			options: ["Promotes how to dance", "Promotes how to code", "Promote how to build robots", "Promote how to play games"],
   			answer: 2,
         links: [
-          { name: "China on Wikipedia", link: "http://www.example.com" },
+          { name: "Our CCA promotes coding through the hardwork of our very own Infocomm members, encouraging their peers to learn basic coding through fun and interactive platforms },
         ]
   		},
-  		// {
-  		// 	question: "When did the second world war end?",
-  		// 	options: ["1945", "1939", "1944", "1942"],
-  		// 	answer: 0,
-    //     links: [
-    //       { name: "The second world war", link: "http://www.example.com" }
-    //     ]
-  		// },
-  		// {
-  		// 	question: "Which was the first country to issue paper currency?",
-  		// 	options: ["USA", "France", "Italy", "China"],
-  		// 	answer: 3,
-    //     links: [
-    //       { name: "The paper currency history", link: "http://www.example.com" }
-    //     ]
-  		// },
-  		// {
-  		// 	question: "Which city hosted the 1996 Summer Olympics?",
-  		// 	options: ["Atlanta", "Sydney", "Athens", "Beijing"],
-  		// 	answer: 0,
-    //     links: [
-    //       { name: "The Olympics official website", link: "http://www.example.com" }
-    //     ]
-  		// },
-  		{
-  			question: "Who invented telephone?",
-  			options: ["Albert Einstein", "Alexander Graham Bell", "Isaac Newton", "Marie Curie"],
+    {
+  			question: "How do our members learn ?",
+  			options: ["Only through IMDA courses", "Only through self-learning", "Only through lessons conducted by seniors", "All of the above"],
+  			answer: 4,
+        links: [
+          { name: "Our members learn more about programming through a good mix of exposure from courses },
+        ]
+  		},
+    {
+  			question: "Which competition does ICC participate every year?",
+  			options: ["NIC Ace Of Coders", "I-Love-Computers Award", "eSports Championships", "Red Dot Design Awards"],
   			answer: 1,
         links: [
-          { name: "The inventors index", link: "http://www.example.com" }
+          { name: "Our CCA takes part in the NIC Ace of Coders competition every year. In fact, it is one of the competitions that Dunman High School has excelled in, constantly being the top performing school for a various number of years." }
+        ]
+  		}
+    {
+  			question: "What are ICC members trained to do?",
+  			options: ["Coding", "Gaming", "Designing", "Animating"],
+  			answer: 1 and 2,
+        links: [
+          { name: "In our CCA, we mainly focus on coding and design." }
+        ]
+  		}
+    {
+  			question: "When are Infocomm Club sessions mainly held on?",
+  			options: ["Mondays, 1230 to 1530", "Tuesdays, 1400 to 1730", "Thursdays, 1400 to 1730", "Fridays, 1430 to 1730"],
+  			answer: 4,
+        links: [
+          { name: "Our CCA sessions are mostly held on Fridays, 2.30pm-5.30pm with occassional sessions held on Mondays,3.30pm - 5.30pm (may vary due to the courses we are taking)" }
         ]
   		}
   ];
