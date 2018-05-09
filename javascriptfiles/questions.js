@@ -7,7 +7,7 @@ app.factory("questions", function() {
   			options: ["Promotes how to dance", "Promotes how to code", "Promote how to build robots", "Promote how to play games"],
   			answer: 2,
         links: [
-          { name: "Our CCA promotes coding through the hardwork of our very own Infocomm members, encouraging their peers to learn basic coding through fun and interactive platforms },
+          { name: "Our CCA promotes coding through the hardwork of our very own Infocomm members, encouraging their peers to learn basic coding through fun and interactive platforms" },
         ]
   		},
     {
@@ -15,7 +15,7 @@ app.factory("questions", function() {
   			options: ["Only through IMDA courses", "Only through self-learning", "Only through lessons conducted by seniors", "All of the above"],
   			answer: 4,
         links: [
-          { name: "Our members learn more about programming through a good mix of exposure from courses },
+          { name: "Our members learn more about programming through a good mix of exposure from courses" },
         ]
   		},
     {
