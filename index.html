@@ -1,73 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="pt-BR">
 <head>
-	
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <title>Quiz de Marketing Digital</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="css/third-party/font-awesome.min.css" rel="stylesheet">
-<link href="css/third-party/bootstrap.min.css" rel="stylesheet">
-<link href="css/quizlet.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="css/third-party/font-awesome.min.css" rel="stylesheet">
+  <link href="css/third-party/bootstrap.min.css" rel="stylesheet">
+  <link href="css/quizlet.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-<script src="javascript/third-party/angular.min.js"></script>
-<script src="javascript/third-party/jquery.min.js"></script>
-<script src="javascript/third-party/bootstrap.min.js"></script>
+  <script src="javascript/third-party/angular.min.js"></script>
+  <script src="javascript/third-party/jquery.min.js"></script>
+  <script src="javascript/third-party/bootstrap.min.js"></script>
 
-<script src="javascript/quizlet.js"></script>
-<script src="javascript/questions.js"></script>
-<script src="javascript/levels.js"></script>
-<script src="javascript/quiz.js"></script>
-	
-<style>
-.demo-layout-transparent {
-  background: url("20180508_220440.jpg") center / cover;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  color: black;
-}
-	
-</style>
+  <script src="javascript/quizlet.js"></script>
+  <script src="javascript/questions.js"></script>
+  <script src="javascript/levels.js"></script>
+  <script src="javascript/quiz.js"></script>
 </head>
-<body>
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">DHSICC Quiz</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-      </nav>
+  <body ng-app="quizlet">
+  <header>
+    <div class="container">
+      <h1>Quiz de Marketing Digital</h1>
     </div>
   </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-    </nav>
-  </div>
-	
-<main class="mdl-layout__content">
-	<div class="container">
-
-        </div>
-        <div class="container about">
-        <div class="row">
+    <div class="container about">
+      <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <quiz> </quiz>
         </div>
-<style>
-</main>
-</div>
-</body>
+      </div>
+    </div>
+  </body>
+  <footer class="copyright" align="center">
+    <div class="container">
+      <p><img alt="Resultados Digitais" src="/images/logo_rd.png"></p>
+      <p class="text-center">©Todos os direitos reservados. Resultados Digitais.</p>
+    </div>
+  </footer>
 </html>
