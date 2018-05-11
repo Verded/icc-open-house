@@ -3,8 +3,8 @@ app = angular.module("dhsiccquiz");
 app.factory("questions", function() {
   var questions = [
     {
-  			question: "What does Infocomm promote?",
-  			options: ["Promotes how to dance", "Promotes how to code", "Promote how to build robots", "Promote how to play games"],
+  			question: "What does Infocomm Club promote?",
+  			options: ["how to dance", "how to code", "how to build robots", "how to play games"],
   			answer: 1,
         links: [
           { name: "Our CCA promotes coding through the hardwork of our very own Infocomm members, encouraging their peers to learn basic coding through fun and interactive platforms" },
@@ -23,7 +23,7 @@ app.factory("questions", function() {
   			options: ["NIC Ace Of Coders", "I-Love-Computers Award", "eSports Championships", "Red Dot Design Awards"],
   			answer: 0,
         links: [
-          { name: "Our CCA takes part in the NIC Ace of Coders competition every year. In fact, it is one of the competitions that Dunman High School has excelled in, constantly being the top performing school for a various number of years." }
+          { name: "Our CCA takes part in the NIC Ace of Coders competition every year. In fact, it is one of the competitions that Dunman High School has excelled in, constantly being the top performing school for many years." }
         ]
   		},
     {
@@ -39,7 +39,7 @@ app.factory("questions", function() {
   			options: ["Mondays, 1230 to 1530", "Tuesdays, 1400 to 1730", "Thursdays, 1400 to 1730", "Fridays, 1430 to 1730"],
   			answer: 3,
         links: [
-          { name: "Our CCA sessions are mostly held on Fridays, 2.30pm-5.30pm with occassional sessions held on Mondays,3.30pm - 5.30pm (may vary due to the courses we are taking)" }
+          { name: "Our CCA sessions are mostly held on Fridays 2.30pm-5.30pm with occasional sessions on Mondays 3.30pm - 5.30pm (may vary due to the courses we are taking)" }
         ]
   		}
   ];
