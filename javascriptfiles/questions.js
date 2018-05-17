@@ -63,7 +63,7 @@ app.factory("questions", function() {
 					  "Around 30", 
 					  "Around 80", 
 					  "Around 120"],
-  			answer: 2,
+  			answer: 1,
         links: [
           { name: "Infocomm Club is a small CCA and the number of members who join our CCA undergo rigorous interviews before admission." }
         ]
@@ -74,7 +74,7 @@ app.factory("questions", function() {
 					  "Flying Kites", 
 					  "Designing Advertisements", 
 					  "Business Analytics"],
-  			answer: 4,
+  			answer: 3,
         links: [
           { name: "Infocomm Club has just concluded its Business Analytics training course where students learn how to use programs to evaluate a company's performance." }
         ]
@@ -85,7 +85,7 @@ app.factory("questions", function() {
 					  "Through School CCA Selection Only", 
 					  "Through DSA And School CCA Selection", 
 					  "None Of The Above"],
-  			answer: 3,
+  			answer: 2,
         links: [
           { name: "Students can now apply using the Direct School Admissions scheme to Infocomm Club, besides the existing CCA allocation programme for those who entered the school through other methods." }
         ]
@@ -96,7 +96,7 @@ app.factory("questions", function() {
 					  "3", 
 					  "5", 
 					  "Not Applicable"],
-  			answer: 3,
+  			answer: 2,
         links: [
           { name: "Google Code In is a competition organised by Google where aspiring coders partner with open source organisations to help them in various tasks ranging from programming to even outreach." }
         ]
@@ -107,7 +107,7 @@ app.factory("questions", function() {
 					  "National Olympiad In Informatics", 
 					  "i.code Competition", 
 					  "None Of The Above"],
-  			answer: 4,
+  			answer: 3,
         links: [
           { name: "Infocomm Club members participate in many competitions to broaden their horizons and increase experience." }
         ]
@@ -115,7 +115,7 @@ app.factory("questions", function() {
 	{
   			question: "Do you need a coding background to join Infocomm Club?",
   			options: ["Yes", "No"],
-  			answer: 2,
+  			answer: 1,
         links: [
           { name: "Anyone who has the passion to learn more about coding and infocomm-related knowledge in general is welcome to join ICC." }
         ]
