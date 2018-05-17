@@ -102,11 +102,11 @@ app.factory("questions", function() {
         ]
   		},
 	{
-  			question: "Which competition does Infocomm Club NOT participate in?",
+  			question: "Which competition does Infocomm Club participate in?",
   			options: ["Google Code In", 
 					  "National Olympiad In Informatics", 
 					  "i.code Competition", 
-					  "None Of The Above"],
+					  "All Of The Above"],
   			answer: 3,
         links: [
           { name: "Infocomm Club members participate in many competitions to broaden their horizons and increase experience." }
