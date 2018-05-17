@@ -32,7 +32,36 @@ app.factory("levels", function() {
   		title: "Congratulations!",
   		text: "You got a stamp!"
   	},
-
+    {
+      minimun_score: 6,
+  		title: "Congratulations!",
+  		text: "You got a stamp!"
+  	},
+    {
+      minimun_score: 7,
+  		title: "Congratulations!",
+  		text: "You got a stamp!"
+  	},	  
+    {
+      minimun_score: 8,
+  		title: "Congratulations!",
+  		text: "You got a stamp!"
+  	},
+    {
+      minimun_score: 9,
+  		title: "Congratulations!",
+  		text: "You got a stamp!"
+  	},
+    {
+      minimun_score: 10,
+  		title: "Congratulations!",
+  		text: "You got a stamp!"
+  	},
+    {
+      minimun_score: 11,
+  		title: "Congratulations!",
+  		text: "You got a stamp!"
+  	},
   ];
 
   return {
